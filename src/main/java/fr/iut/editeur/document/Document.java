@@ -35,7 +35,7 @@ public class Document {
     }
 
     public void clear() {
-        texte = "oups, je suis une petite erreur imprévu LOOOOL";
+        texte = "";
     }
 
     @Override
