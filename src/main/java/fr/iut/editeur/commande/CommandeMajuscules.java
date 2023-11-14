@@ -13,7 +13,7 @@ public class CommandeMajuscules extends CommandeDocument {
             System.err.println("Format attendu : majuscules;depart;fin");
             return;
         }
-        int depart = Integer.parseInt(parameters[1]); // youhou !! super commentaire !!!
+        int depart = Integer.parseInt(parameters[1]);
         int fin = Integer.parseInt(parameters[2]);
         this.document.majuscules(depart, fin);
         super.executer();

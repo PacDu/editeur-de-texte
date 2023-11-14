@@ -30,7 +30,7 @@ public class Document {
     }
 
     /**
-     * Remplace le texte actuel de {@param start} à {@param end} par {@param remplacement}
+     * Remplace le texte actuel de start à end par remplacement
      * @param start Position de début
      * @param end Position de fin
      * @param remplacement Texte qui sera mis à la place de l'actuel
@@ -42,7 +42,7 @@ public class Document {
     }
 
     /**
-     * Met en majuscule le texte de {@param start} à {@param end} en utilisant la méthode {@link #remplacer}
+     * Met en majuscule le texte de start à end en utilisant la méthode {@link #remplacer}
      * @param start Position de début
      * @param end Position de fin
      */
