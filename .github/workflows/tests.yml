@@ -1,0 +1,19 @@
+name : nom_custom_workflow
+
+on: push
+
+jobs:
+
+  job1:
+    runs-on: ubuntu-latest #Tourne sur une VM ubuntu
+    steps: #Etapes à réaliser sur le système
+      #On se place dans le dépôt...
+      - name: Checkout
+        uses: actions/checkout@v3
+      #Suite des actions...
+      - name: Install Java
+        uses: actions/setup-java@v1
+        with:
+          param1: "java-version: 17"
+      - name: Tests
+        run: mvn test
